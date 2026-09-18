@@ -1,7 +1,5 @@
 # 🚀 Advance SQL Project : EDA & Advanced Data Analytics
 
-![Project Banner](banner.png)
-
 A complete **SQL-driven Exploratory Data Analysis & Analytics Project**, covering:
 
 - **Exploratory Data Analysis (EDA)**
@@ -109,34 +107,34 @@ SQL-based reports extracting business value:
 ## 🗂️ Project Folder Structure
 
 ```text
-Advance-SQL-Project-EDA-Advanced-Data-Analytics/
+├── 📁 Datasets/
+│   ├── dim_customers.csv
+│   ├── dim_products.csv
+│   └── fact_sales.csv
 │
-│── 📄 README.md                               ← Main Project Documentation
-│── 📑 LICENSE                                  ← License for Project
+├── 📁 Report Files/
+│   ├── gold.report_customers.csv
+│   └── gold.report_products.csv
 │
-└── 📊 EDA + Advanced Data Analysis/
-    │
-    ├── Data Analysis .png                       ← EDA Output Summary Diagram
-    │
-    ├── scripts/                                 ← All SQL Scripts for Analysis
-    │   ├── 00_init_database.sql                 ← Initialize Analysis Schema
-    │   ├── 01_database_exploration.sql          ← Explore Tables & Metadata
-    │   ├── 02_dimensions_exploration.sql        ← Explore Dimension Tables
-    │   ├── 03_date_range_exploration.sql        ← Explore Date Ranges
-    │   ├── 04_measures_exploration.sql          ← Explore Key Business Metrics
-    │   ├── 05_magnitude_analysis.sql            ← Magnitude-Level Analysis
-    │   ├── 06_ranking_analysis.sql              ← Ranking & Ordering Analysis
-    │   ├── 07_change_over_time_analysis.sql     ← Trend + Time-Based Analysis
-    │   ├── 08_cumulative_analysis.sql           ← Running Totals & Rolling Sums
-    │   ├── 09_performance_analysis.sql          ← Performance & KPI Insights
-    │   ├── 10_part_to_whole_analysis.sql        ← Proportional Contribution Analysis
-    │   ├── 11_data_segmentation.sql             ← Customer & Product Segmentation
-    │   ├── 12_report_customers.sql              ← Generate Customer Report
-    │   └── 12_report_products.sql               ← Generate Product Report
-    │
-    └── dataset/                                 ← Output Reports 
-        ├── report_customers.csv                 ← Final Customer Analytics Report
-        └── report_products.csv                  ← Final Product Analytics Report
+├── 📁 scripts/
+│   ├── 00_init_database.sql
+│   ├── 01_database_exploration.sql
+│   ├── 02_dimensions_exploration.sql
+│   ├── 03_date_range_exploration.sql
+│   ├── 04_measures_exploration.sql
+│   ├── 05_magnitude_analysis.sql
+│   ├── 06_ranking_analysis.sql
+│   ├── 07_change_over_time_analysis.sql
+│   ├── 08_cumulative_analysis.sql
+│   ├── 09_performance_analysis.sql
+│   ├── 10_part_to_whole_analysis.sql
+│   ├── 11_data_segmentation.sql
+│   ├── 12_report_customers.sql
+│   └── 13_report_products.sql
+│
+├── 🖼️ Data Analysis.png
+├── 📄 LICENSE
+└── 📄 README.md
 
 
 ## 🎯 Key Outcomes & Skills Demonstrated
